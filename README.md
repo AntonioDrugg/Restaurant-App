@@ -1,10 +1,8 @@
 # Restaurant-App
 Part of the final project to Java Course
 GUI for the app and the logic to calculate the bill, working with hard coded values.
-
-
-
-package BillCaltulator;
+	
+		package BillCaltulator;
 
 //this imports AWT containers and components
 
@@ -17,11 +15,10 @@ import javax.*;
 import javax.swing.*;
 
 
-// this is the main class, where the object "app" is declared and some basic information is added
-
-public class MainTest {
-	public static void main(String[] args) {
+// this is the main class, where the object "app" is declared and some basic information is addedpublic class MainTest {
+		public static void main(String[] args) {
 		RestaurantApp app = new RestaurantApp(); // creates the object (GUI)
+	
 		app.setSize(400, 600); // set the size of the graphic object
 		app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // determine that the program ends whenever the graphic object is closed
 		app.setVisible(true); // determine that the object is visible

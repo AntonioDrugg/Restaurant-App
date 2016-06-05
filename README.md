@@ -2,18 +2,23 @@
 Part of the final project to Java Course
 GUI for the app and the logic to calculate the bill, working with hard coded values.
 
+
+
 package BillCaltulator;
 
 //this imports AWT containers and components
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.*;
 
 //this imports the Swing library so the class "RestaurantApp" can extend all the methods from Swing
+
 import javax.swing.*;
 
 
 // this is the main class, where the object "app" is declared and some basic information is added
+
 public class MainTest {
 	public static void main(String[] args) {
 		RestaurantApp app = new RestaurantApp(); // creates the object (GUI)
@@ -237,13 +242,8 @@ class RestaurantApp extends JFrame {
 		        
 
             setVisible(true);
-		    }     		
-
-
-public void actionPerformed(ActionEvent e){  
-
-  
-    }  
-}  
-
-
+		    }     
+		    
+		    public void actionPerformed(ActionEvent e){ 
+		    }
+		    }
